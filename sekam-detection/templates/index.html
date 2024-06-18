@@ -14,12 +14,7 @@
             border: none;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        .navbar {
-            background-color: #4CAF50;
-        }
-        .navbar-brand, .nav-link {
-            color: #fff !important;
-        }
+       
         .form-control, .btn {
             border-radius: 0.25rem;
         }
@@ -29,6 +24,36 @@
             height: auto;     /* Maintain aspect ratio */
             display: block;   /* Remove bottom space/gap */
             margin: 0 auto;   /* Center align the image */
+        }
+
+        .navbar {
+            background-color: #D48333;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+        }
+
+        .container-fluid {
+            padding: 0 5%;
+        }
+
+        .btn {
+            background-color: #7B440F;
+            border-color: #7B440F;
+
+        }
+
+        .btn:hover {
+            background-color: #B76514;
+            border-color: #B76514;
+        }
+
+        .container{
+            margin-bottom: 2%;
         }
     </style>
     <script>
@@ -51,8 +76,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link active" href="/">Home</a>
+                    <a class="nav-link" href="/about">About</a>
                 </ul>
             </div>
         </div>
