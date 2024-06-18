@@ -25,6 +25,7 @@ To get started with the Dedak Classifier, follow these steps:
 
 2. **Install Dependencies**
     ```bash
+    cd sekam-detection
     pip install -r requirements.txt
     ```
 3. **Run the Application**
